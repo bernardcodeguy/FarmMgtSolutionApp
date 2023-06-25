@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/fungicides"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/sh2"
+        android:fontFamily="@font/lato"
+        android:hint="Fungicides"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@color/purple_200"
+        android:textColorHint="@color/purple_200" />
+    <EditText
+        android:id="@+id/herbicides"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/sh2"
+        android:fontFamily="@font/lato"
+        android:hint="Herbicides"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@color/purple_200"
+        android:textColorHint="@color/purple_200"
+        android:layout_below="@+id/fungicides"/>
+
+    <EditText
+        android:id="@+id/insecticides"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/herbicides"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/sh2"
+        android:fontFamily="@font/lato"
+        android:hint="Insecticides"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@color/purple_200"
+        android:textColorHint="@color/purple_200" />
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/drawable/b.xml" value="0.3685" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/drawable/b1.xml" value="0.3685" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/drawable/background.xml" value="0.3685" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/drawable/sh.xml" value="0.3685" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/drawable/sh2.xml" value="0.3685" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/activity_act.xml" value="0.31765711842667804" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/activity_converted_report.xml" value="0.3142368533561351" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/activity_expenses.xml" value="0.3142368533561351" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/activity_field.xml" value="0.33" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/activity_field_report.xml" value="0.33" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/activity_inventory.xml" value="0.3142368533561351" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/activity_inventory_report.xml" value="0.15177426250534418" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/activity_irrigation_program.xml" value="0.3026934587430526" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/activity_login.xml" value="0.36875" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/activity_main.xml" value="0.3142368533561351" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/activity_other_report.xml" value="0.3142368533561351" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/activity_planting_report.xml" value="0.3142368533561351" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/activity_pre_planting_report.xml" value="0.3142368533561351" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/activity_report.xml" value="0.25" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/activity_report2.xml" value="0.3026934587430526" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/activity_sales_revenue.xml" value="0.3142368533561351" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/activity_transaction.xml" value="0.3142368533561351" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/activity_transaction_report.xml" value="0.25" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/activity_weeding_program_report.xml" value="0.25" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/fragment_login.xml" value="0.3142368533561351" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/fragment_register.xml" value="0.25" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/layout_chemical.xml" value="0.31338178708849934" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/layout_dialog.xml" value="0.3142368533561351" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/layout_dialog_measurement.xml" value="0.3142368533561351" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/layout_dialog_plants.xml" value="0.287109375" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/layout_direct_exp_dialog.xml" value="0.3142368533561351" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/layout_fertiliser_dialog.xml" value="0.3142368533561351" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/layout_iri_dialog.xml" value="0.3142368533561351" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/layout_land_pre.xml" value="0.31765711842667804" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/layout_other_activity_dialog.xml" value="0.3142368533561351" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/layout_recycler_fields.xml" value="0.31338178708849934" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/layout_weeding_dialog.xml" value="0.31338178708849934" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/list_item.xml" value="0.31338178708849934" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/list_item2.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/list_item3.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/list_item4.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/layout/list_item5.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/Bern Ard/AndroidStudioProjects/FarmMgtSolutionApp/app/src/main/res/menu/menu.xml" value="0.3142368533561351" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

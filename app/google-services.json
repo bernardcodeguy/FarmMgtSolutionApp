@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1009247024658",
+    "project_id": "farm-solutions-faca6",
+    "storage_bucket": "farm-solutions-faca6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009247024658:android:cc87bdff3a58130d828acb",
+        "android_client_info": {
+          "package_name": "com.lawrencemupaku.farmmgtsolutionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009247024658-thv9u2s6nqmp15117035pb966npie31a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHUymcLO8G5Eo2Tku8sXeWgFfSrGUW2RU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009247024658-thv9u2s6nqmp15117035pb966npie31a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_editor_absoluteX="1dp"
+    app:layout_editor_absoluteY="1dp"
+    tools:context=".activities.FieldActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarFields"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navigationIcon="@drawable/ic_back"
+            app:title="Fields"
+            app:titleTextColor="@color/white" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <EditText
+                android:id="@+id/fieldName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+
+                android:background="@drawable/sh2"
+                android:fontFamily="@font/lato"
+                android:hint="Field Name"
+                android:inputType="text"
+                android:padding="15dp"
+                android:textColor="@color/purple_200"
+                android:textColorHint="@color/purple_200"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:textColorHint="@color/purple_200"
+                    android:hint="@string/select"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                    >
+                    <AutoCompleteTextView
+                        android:id="@+id/fieldType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="none"
+                        android:textColor="@color/purple_200"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginEnd="30dp"
+                    android:textColorHint="@color/purple_200"
+
+                    android:hint="Soil Type"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                    >
+                    <AutoCompleteTextView
+                        android:id="@+id/soilType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="none"
+                        android:textColor="@color/purple_200"/>
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColorHint="@color/purple_200"
+
+                android:hint="Soil Test Done"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                >
+                <AutoCompleteTextView
+                    android:id="@+id/testDone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:textColor="@color/purple_200"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColorHint="@color/purple_200"
+
+                android:hint="Status"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                >
+                <AutoCompleteTextView
+                    android:id="@+id/status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:textColor="@color/purple_200"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <EditText
+                android:id="@+id/cropName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/sh2"
+                android:fontFamily="@font/lato"
+                android:hint="Crop Name"
+                android:inputType="text"
+                android:padding="15dp"
+                android:textColor="@color/purple_200"
+                android:textColorHint="@color/purple_200"
+                />
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColorHint="@color/purple_200"
+
+                android:hint="Seed Type"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                >
+                <AutoCompleteTextView
+                    android:id="@+id/seedType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:textColor="@color/purple_200"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <EditText
+                android:id="@+id/numOfPlants"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/sh2"
+                android:fontFamily="@font/lato"
+                android:hint="Number of Plants"
+                android:inputType="number"
+                android:padding="15dp"
+                android:textColor="@color/purple_200"
+                android:textColorHint="@color/purple_200"
+                />
+            <EditText
+                android:id="@+id/daysToMat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/sh2"
+                android:fontFamily="@font/lato"
+                android:hint="Days to Maturity"
+                android:inputType="number"
+                android:padding="15dp"
+                android:textColor="@color/purple_200"
+                android:textColorHint="@color/purple_200"
+                />
+            <EditText
+                android:id="@+id/dateOfPlanting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/sh2"
+                android:fontFamily="@font/lato"
+                android:hint="Date of Planting (dd-mm-yyyy)"
+                android:inputType="date"
+                android:padding="15dp"
+                android:textColor="@color/purple_200"
+                android:textColorHint="@color/purple_200"
+                />
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColorHint="@color/purple_200"
+
+                android:hint="Unit of Measurement"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                >
+                <AutoCompleteTextView
+                    android:id="@+id/unitMs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:textColor="@color/purple_200"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/targetYield"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/sh2"
+                    android:fontFamily="@font/lato"
+                    android:hint="Target Yield"
+                    android:inputType="number"
+                    android:padding="15dp"
+                    android:textColor="@color/purple_200"
+                    android:textColorHint="@color/purple_200"
+                    android:layout_marginBottom="10dp"/>
+                <EditText
+                    android:id="@+id/actualYield"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/sh2"
+                    android:fontFamily="@font/lato"
+                    android:hint="Actual Yield"
+                    android:inputType="number"
+                    android:padding="15dp"
+                    android:textColor="@color/purple_200"
+                    android:textColorHint="@color/purple_200"
+                    android:layout_marginBottom="10dp"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/b"
+                android:fontFamily="@font/lato"
+                android:text="Save"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

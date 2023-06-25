@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/prePlanting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/sh2"
+        android:fontFamily="@font/lato"
+        android:hint="Pre-planting application"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@color/purple_200"
+        android:textColorHint="@color/purple_200" />
+
+    <EditText
+        android:id="@+id/starterApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prePlanting"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/sh2"
+        android:fontFamily="@font/lato"
+        android:hint="Starter Application"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@color/purple_200"
+        android:textColorHint="@color/purple_200" />
+
+    <EditText
+        android:id="@+id/foliaApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/starterApp"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/sh2"
+        android:fontFamily="@font/lato"
+        android:hint="Folia Application"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@color/purple_200"
+        android:textColorHint="@color/purple_200" />
+
+    <EditText
+        android:id="@+id/topDressing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/foliaApp"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/sh2"
+        android:fontFamily="@font/lato"
+        android:hint="Top Dressing"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@color/purple_200"
+        android:textColorHint="@color/purple_200" />
+
+    <EditText
+        android:id="@+id/doloping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topDressing"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/sh2"
+        android:fontFamily="@font/lato"
+        android:hint="Doloping"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@color/purple_200"
+        android:textColorHint="@color/purple_200" />
+
+    <EditText
+        android:id="@+id/other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doloping"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/sh2"
+        android:fontFamily="@font/lato"
+        android:hint="Other(specify)"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@color/purple_200"
+        android:textColorHint="@color/purple_200" />
+
+</RelativeLayout>

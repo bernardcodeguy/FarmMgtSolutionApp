@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_editor_absoluteX="1dp"
+    app:layout_editor_absoluteY="1dp"
+    tools:context=".activities.FieldActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarFields"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navigationIcon="@drawable/ic_back"
+            app:title="Inventory"
+            app:titleTextColor="@color/white" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <EditText
+                android:id="@+id/dateAcquired"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/sh2"
+                android:fontFamily="@font/lato"
+                android:hint="Date Acquired (dd-mm-yyyy)"
+                android:inputType="date"
+                android:padding="15dp"
+                android:textColor="@color/purple_200"
+                android:textColorHint="@color/purple_200"
+                />
+
+            <EditText
+                android:id="@+id/dateSold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/sh2"
+                android:fontFamily="@font/lato"
+                android:hint="Date Used/Sold (dd-mm-yyyy)"
+                android:inputType="date"
+                android:padding="15dp"
+                android:textColor="@color/purple_200"
+                android:textColorHint="@color/purple_200"
+                />
+
+            <EditText
+                android:id="@+id/itemDescription"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:inputType="text|textMultiLine"
+                android:gravity="left|top"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/sh2"
+                android:fontFamily="@font/lato"
+                android:hint="Item Description"
+                android:padding="15dp"
+                android:textColor="@color/purple_200"
+                android:textColorHint="@color/purple_200"
+                />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColorHint="@color/purple_200"
+
+                android:hint="Item Class"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                >
+                <AutoCompleteTextView
+                    android:id="@+id/itemClass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:textColor="@color/purple_200"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColorHint="@color/purple_200"
+
+                android:hint="Unit of Measure"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                >
+                <AutoCompleteTextView
+                    android:id="@+id/unitMs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:textColor="@color/purple_200"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <EditText
+                android:id="@+id/amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/sh2"
+                android:fontFamily="@font/lato"
+                android:hint="Amount($)"
+                android:inputType="numberDecimal"
+                android:padding="15dp"
+                android:textColor="@color/purple_200"
+                android:textColorHint="@color/purple_200"
+                />
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColorHint="@color/purple_200"
+
+                android:hint="Condition"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                >
+                <AutoCompleteTextView
+                    android:id="@+id/condition"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:textColor="@color/purple_200"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <EditText
+                android:id="@+id/inventoryPurchase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/sh2"
+                android:fontFamily="@font/lato"
+                android:hint="Inventory Purchase"
+                android:inputType="numberDecimal"
+                android:padding="15dp"
+                android:textColor="@color/purple_200"
+                android:textColorHint="@color/purple_200"
+                />
+
+            <EditText
+                android:id="@+id/openInventory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/sh2"
+                android:fontFamily="@font/lato"
+                android:hint="Opening Inventory"
+                android:inputType="numberDecimal"
+                android:padding="15dp"
+                android:textColor="@color/purple_200"
+                android:textColorHint="@color/purple_200"
+                />
+
+
+            <EditText
+                android:id="@+id/exchangeRate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/sh2"
+                android:fontFamily="@font/lato"
+                android:hint="Exchange Rate"
+                android:inputType="text"
+                android:padding="15dp"
+                android:textColor="@color/purple_200"
+                android:textColorHint="@color/purple_200"
+                />
+
+            <EditText
+                android:id="@+id/salesRevenue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/sh2"
+                android:fontFamily="@font/lato"
+                android:hint="Sales Revenue"
+                android:inputType="text"
+                android:padding="15dp"
+                android:textColor="@color/purple_200"
+                android:textColorHint="@color/purple_200"
+                />
+
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/b"
+                android:fontFamily="@font/lato"
+                android:text="Save"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
